@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos em Geral – Grupo G1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+<header class="topo">
+    <h1>Eventos em Geral</h1>
+    <p class="subtitulo">Do planejamento ao encerramento: as cinco etapas de um evento bem-feito.</p>
+</header>
+
+<nav class="linha-do-tempo" aria-label="Etapas do evento">
+    <button type="button" class="passo" data-indice="0">Planejamento</button>
+    <button type="button" class="passo" data-indice="1">Preparativos</button>
+    <button type="button" class="passo" data-indice="2">Recepção</button>
+    <button type="button" class="passo" data-indice="3">Evento</button>
+    <button type="button" class="passo" data-indice="4">Encerramento</button>
+</nav>
+
+<main class="palco">
+
+    <section class="etapa" aria-labelledby="t1">
+        <h2 id="t1">Planejamento</h2>
+        <p class="resumo">Tudo começa no papel: objetivos, orçamento, data e local definidos antes de qualquer convite.</p>
+        <div class="fotos">
+            <figure>
+                <img src="imagens/1-planejamento.webp" alt="Checklist de evento em uma prancheta, ao lado de um calendário de 2026">
+                <figcaption>Checklist de tarefas e calendário de 2026</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/2-planejamento.jpg" alt="Salão claro com cortinas brancas, lanternas de papel e mesas redondas">
+                <figcaption>Definição e visualização do espaço do evento</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section class="etapa" aria-labelledby="t2">
+        <h2 id="t2">Preparativos</h2>
+        <p class="resumo">Hora de montar a estrutura: som, iluminação, palco e decoração das mesas.</p>
+        <div class="fotos">
+            <figure>
+                <img src="imagens/3-preparativos.jpg" alt="Palco montado com caixas de som, refletores e mesas de mixagem">
+                <figcaption>Montagem de som, iluminação e palco</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/4-preparativos.jpg" alt="Mesa de madeira decorada com tulipas coloridas">
+                <figcaption>Decoração das mesas com flores coloridas</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section class="etapa" aria-labelledby="t3">
+        <h2 id="t3">Recepção</h2>
+        <p class="resumo">A primeira impressão: uma entrada acolhedora e uma abertura que prende a atenção do público.</p>
+        <div class="fotos">
+            <figure>
+                <img src="imagens/5-recepcao.jpg" alt="Entrada com cortina de luzes e vasos de plantas">
+                <figcaption>Entrada decorada com luzes e plantas</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/6-recepcao.jpg" alt="Palestrante de costas, ao microfone, diante da plateia">
+                <figcaption>Abertura e fala no palco</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section class="etapa" aria-labelledby="t4">
+        <h2 id="t4">Evento</h2>
+        <p class="resumo">O momento principal: entretenimento, energia do público e a equipe cuidando do ritmo.</p>
+        <div class="fotos">
+            <figure>
+                <img src="imagens/7-evento.jpg" alt="Plateia com os braços levantados sob luzes douradas e confetes">
+                <figcaption>Momento principal com luzes e confetes</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/8-evento.jpg" alt="Grupo de amigos sorrindo e soprando confetes coloridos">
+                <figcaption>Celebração e interação entre os participantes</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section class="etapa" aria-labelledby="t5">
+        <h2 id="t5">Encerramento</h2>
+        <p class="resumo">Um brinde para fechar a noite e uma reunião da equipe para avaliar o que deu certo.</p>
+        <div class="fotos">
+            <figure>
+                <img src="imagens/9-encerramento.jpg" alt="Duas taças brindando, com brilhos dourados ao fundo">
+                <figcaption>Brinde de encerramento</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/10-encerramento.jpg" alt="Equipe reunida em volta de uma mesa, com notebook e documentos">
+                <figcaption>Reunião final e balanço da equipe</figcaption>
+            </figure>
+        </div>
+    </section>
+
+</main>
+
+<div class="controles">
+    <button type="button" id="anterior">Anterior</button>
+    <span id="contador" aria-live="polite">Etapa 1 de 5</span>
+    <button type="button" id="proximo">Próximo</button>
+</div>
+
+<footer class="rodape">
+    <p>Fonte das imagens: <a href="https://br.freepik.com" target="_blank" rel="noopener">br.freepik.com</a></p>
+    <p>Grupo G1: Pedro Amorim, Pedro Henrique, Claudio, Kauã e Brenno</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
